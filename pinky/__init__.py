@@ -224,7 +224,7 @@ class Pinky(object):
                 exception('Could not replace wrapper')
 
     @staticmethod
-    def prepare_html(content):
+    def parse(content):
 
         soup = BeautifulSoup(content, 'lxml')
 

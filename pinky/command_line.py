@@ -8,6 +8,6 @@ def main():
         print 'pinky receives just one argument: the html string'
         return
 
-    result = Pinky.prepare_html(a[1])
+    result = Pinky.parse(a[1])
 
     return result
