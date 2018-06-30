@@ -2,7 +2,7 @@
 
 Inky is an HTML-based templating language that converts simple HTML into complex, responsive email-ready HTML. Designed for [Foundation for Emails](http://foundation.zurb.com/emails), a responsive email framework from [ZURB](http://zurb.com).
 
-**Inky is built for node, Pinky is just python port of this great library.**
+**Inky is built for node, Pinky is just a python port for this great library.**
 
 Give Inky simple HTML like this:
 
