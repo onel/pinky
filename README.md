@@ -1,6 +1,7 @@
 # Pinky
 
 Inky is an HTML-based templating language that converts simple HTML into complex, responsive email-ready HTML. Designed for [Foundation for Emails](http://foundation.zurb.com/emails), a responsive email framework from [ZURB](http://zurb.com).
+
 **Inky is built for node, Pinky is just python port of this great library.**
 
 Give Inky simple HTML like this:
@@ -66,4 +67,5 @@ The command returns the resulted HTML string.
 
 ## Under the hood
 Pinky uses [BeautifulSoop4](https://pypi.org/project/beautifulsoup4/) (with the lxml option) to parse the received html string and then replace all the custom Inky tags with the proper html elements (table, tr, td, etc.).
+
 In the second step is uses [Premailer](https://github.com/peterbe/premailer) to inline the CSS and minify the HTML.
